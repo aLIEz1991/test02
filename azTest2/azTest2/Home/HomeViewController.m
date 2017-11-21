@@ -18,9 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UILabel * test = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 150, 30)];
-    [test setText:@""];
-    [[self view] addSubview:test];
+    [[self navigationItem] setTitle:@"Home"];
+    
     
 }
 

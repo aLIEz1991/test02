@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "BaseViewController.h"
 #import "HomeViewController.h"
+#import "ChattingViewController.h"
+#import "PersonalViewController.h"
 
 
 @interface AppDelegate ()
@@ -24,9 +26,19 @@
     // 初始化窗口
     [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
     
-    HomeViewController * vc = [[HomeViewController alloc] init];
-    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    [[self window] setRootViewController:nav];
+    HomeViewController * homevc = [[HomeViewController alloc] init];
+    UINavigationController * homenav = [[UINavigationController alloc] initWithRootViewController:homevc];
+    
+    ChattingViewController * chatvc = [[ChattingViewController alloc] init];;
+    UINavigationController * chatnav = [[UINavigationController alloc] initWithRootViewController:chatvc];
+    
+    PersonalViewController * personalvc = [[PersonalViewController alloc] init];
+    UINavigationController * personalnav = [[UINavigationController alloc] initWithRootViewController:personalvc];
+    
+    UITabBarController * tabVC = [[UITabBarController alloc] init];
+    [tabVC setViewControllers:@[homenav, chatnav, personalnav] animated:YES];
+    
+    [[self window] setRootViewController:tabVC];
     
     // 显示窗口
     [[self window] makeKeyAndVisible];
