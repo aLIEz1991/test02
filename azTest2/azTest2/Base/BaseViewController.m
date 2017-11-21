@@ -34,6 +34,9 @@
     [leftBtn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
     UIBarButtonItem * barBtnLeft = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
     [[self navigationItem] setLeftBarButtonItem:barBtnLeft];
+    
+    [[[[self navigationItem] leftBarButtonItem] customView] setHidden:YES];
+    
     [[self view] setBackgroundColor:[UIColor whiteColor]];
     
     

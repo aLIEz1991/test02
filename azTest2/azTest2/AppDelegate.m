@@ -28,12 +28,16 @@
     
     HomeViewController * homevc = [[HomeViewController alloc] init];
     UINavigationController * homenav = [[UINavigationController alloc] initWithRootViewController:homevc];
+    [[homenav tabBarItem] setTitle:@"Home"];
     
     ChattingViewController * chatvc = [[ChattingViewController alloc] init];;
     UINavigationController * chatnav = [[UINavigationController alloc] initWithRootViewController:chatvc];
+    [[chatnav tabBarItem] setTitle:@"Chatting"];
     
     PersonalViewController * personalvc = [[PersonalViewController alloc] init];
     UINavigationController * personalnav = [[UINavigationController alloc] initWithRootViewController:personalvc];
+    [[personalnav tabBarItem] setTitle:@"Personal"];
+    
     
     UITabBarController * tabVC = [[UITabBarController alloc] init];
     [tabVC setViewControllers:@[homenav, chatnav, personalnav] animated:YES];
