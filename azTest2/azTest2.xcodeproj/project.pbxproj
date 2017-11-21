@@ -22,6 +22,7 @@
 		3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D271FBD7FAC002C8222 /* LocalizationManager.m */; };
 		3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D2C1FBD8092002C8222 /* HomeViewController.m */; };
 		3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D301FBD8AE8002C8222 /* PersonalViewController.m */; };
+		3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7921FC400A00063BE23 /* ChattingViewController.m */; };
 		99EAB2715D1FFBB56665601B /* libPods-azTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E783932331A91583E0522BD /* libPods-azTest2.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,8 @@
 		3D476D2C1FBD8092002C8222 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3D476D2F1FBD8AE8002C8222 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		3D476D301FBD8AE8002C8222 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		3D58E7911FC400A00063BE23 /* ChattingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChattingViewController.h; sourceTree = "<group>"; };
+		3D58E7921FC400A00063BE23 /* ChattingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattingViewController.m; sourceTree = "<group>"; };
 		5E783932331A91583E0522BD /* libPods-azTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636A15CEE2794F26CE569D3B /* Pods-azTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1F346EC7698E911314327E /* Pods-azTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 		3D476D3C1FBE6EF6002C8222 /* Chatting */ = {
 			isa = PBXGroup;
 			children = (
+				3D58E7911FC400A00063BE23 /* ChattingViewController.h */,
+				3D58E7921FC400A00063BE23 /* ChattingViewController.m */,
 			);
 			path = Chatting;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				3D476CF01FBD39BF002C8222 /* BaseViewController.m in Sources */,
 				3D476D1B1FBD7655002C8222 /* UIImage+Extend.m in Sources */,
 				3D476CBD1FBD3682002C8222 /* AppDelegate.m in Sources */,
+				3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */,
 				3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */,
 				3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */,
 				3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */,

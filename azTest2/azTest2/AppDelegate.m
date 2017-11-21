@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BaseViewController.h"
+#import "HomeViewController.h"
 
 
 @interface AppDelegate ()
@@ -23,7 +24,7 @@
     // 初始化窗口
     [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
     
-    BaseViewController * vc = [[BaseViewController alloc] init];
+    HomeViewController * vc = [[HomeViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [[self window] setRootViewController:nav];
     
