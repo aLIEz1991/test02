@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     [[self navigationItem] setTitle:@"Chatting"];
-    [[[[self navigationItem] leftBarButtonItem] customView] setHidden:NO];
+//    [[[[self navigationItem] leftBarButtonItem] customView] setHidden:NO];
     
     
 }

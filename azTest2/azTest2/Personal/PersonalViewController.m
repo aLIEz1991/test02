@@ -20,6 +20,8 @@
     
     [[self navigationItem] setTitle:@"Personal"];
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
