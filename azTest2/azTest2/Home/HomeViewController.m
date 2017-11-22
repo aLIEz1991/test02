@@ -10,6 +10,8 @@
 
 @interface HomeViewController ()
 
+@property ( strong , nonatomic) UIScrollView * scrollView;
+
 @end
 
 @implementation HomeViewController
@@ -18,10 +20,55 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [[self navigationItem] setTitle:@"Home"];
+    [[self navigationItem] setTitle:Home];
+    
+    //button view
+    _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH)];
+    [_scrollView setBackgroundColor:[UIColor brownColor]];
+    
+     UIView * btnView = [[UIView alloc]initWithFrame:CGRectMake(0, SCREEN_WIDTH, SCREEN_WIDTH, SCREEN_HEIGHT - NavHeight - TabHeight - SCREEN_WIDTH)];
+    
+    [[self view] addSubview:btnView];
+    [[self view] addSubview:_scrollView];
+    
+    //btn frame
+    UIButton * firstBtn = [[UIButton alloc] initWithFrame:CGRectMake(Margin, Margin, (btnView.frame.size.width - Margin * 3) / 2, (btnView.frame.size.height - Margin * 3) / 2)];
+    
+    UIButton * secondBtn = [[UIButton alloc] initWithFrame:CGRectMake(Margin / 2 + SCREEN_WIDTH / 2, Margin, (btnView.frame.size.width - Margin * 3) / 2, (btnView.frame.size.height - Margin * 3) / 2)];
+    
+    UIButton * thirdBtn = [[UIButton alloc] initWithFrame:CGRectMake(Margin, btnView.frame.size.height / 2 + Margin / 2,(btnView.frame.size.width - Margin * 3) / 2, (btnView.frame.size.height - Margin * 3) / 2)];
+    
+    UIButton * fourthBtn = [[UIButton alloc] initWithFrame:CGRectMake(Margin / 2 + SCREEN_WIDTH / 2, btnView.frame.size.height / 2 + Margin / 2,(btnView.frame.size.width - Margin * 3) / 2, (btnView.frame.size.height - Margin * 3) / 2)];
+    
+    //设置Btn
+    [firstBtn setBackgroundColor:[UIColor redColor]];
+    [secondBtn setBackgroundColor:[UIColor orangeColor]];
+    [thirdBtn setBackgroundColor:[UIColor blueColor]];
+    [fourthBtn setBackgroundColor:[UIColor purpleColor]];
+    
+    
+    [btnView addSubview:firstBtn];
+    [btnView addSubview:secondBtn];
+    [btnView addSubview:thirdBtn];
+    [btnView addSubview:fourthBtn];
     
     
 }
+
+// 初始化轮播图片
+- (void) initScrollView {
+    
+    
+    
+}
+
+
+- (void) menuBtnClick : (UIButton *) sender {
+    
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

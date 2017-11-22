@@ -48,5 +48,12 @@
 //color
 #define titleColor [UIColor colorWithRed:0.966 green:0.945 blue:0.819 alpha:1.00]
 
+//Title
+#define Cake @"Cake"
+#define Bread @"Bread"
+#define Chinese @"Chinese"
+#define Home @"首页"
+
+
 
 #endif /* Const_h */

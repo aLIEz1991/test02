@@ -28,7 +28,7 @@
 //    [[[[self navigationItem] leftBarButtonItem] customView] setHidden:NO];
     
     // 分段式选择器 Segment
-    NSArray * array = [NSArray arrayWithObjects:@"C", @"B", @"China", nil];
+    NSArray * array = [NSArray arrayWithObjects:Cake, Bread, Chinese, nil];
     _segment = [[UISegmentedControl alloc] initWithItems:array];
     // 修改标题(根据下标定位修改)
 //    [_segment setTitle:@"Cake" forSegmentAtIndex:0];
@@ -36,16 +36,15 @@
     // 根据内容定分段器的宽度
 //    [_segment setApportionsSegmentWidthsByContent:YES];
     
-    // 渲染色
-    [_segment setTintColor:titleColor];
-    
     // 按下自动释放 (默认为NO,不被选中状态)
 //    [_segment setMomentary:YES];
     
-    //添加子控制器 默认点击存在问题，第一个页面frame 高度会少64
+    // 渲染色
+    [_segment setTintColor:titleColor];
+    
+    //添加子控制器 默认点击
     _firstVC = [[CakeViewController alloc] init];
     [_firstVC.view setFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - TabHeight)];
-//    [_firstVC.view setFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - TabHeight - NavHeight)];
     [self addChildViewController:_firstVC];
     
     _secondVC = [[BreadViewController alloc] init];
@@ -64,7 +63,7 @@
     
     // 开始时默认选中的下标(0开始)
     [_segment setSelectedSegmentIndex:0];
-#pragma mark -- 默认点击存在问题
+    // 默认点击
     [self segmentClick:_segment];
     
 }
@@ -75,21 +74,15 @@
     
     if (sender.selectedSegmentIndex == 0) {
         
-        NSLog(@"******1");
         [[self view] addSubview:_firstVC.view];
-        NSLog(@"%f",_firstVC.view.frame.size.height);
     
     } else if (sender.selectedSegmentIndex == 1) {
         
-        NSLog(@"******2");
         [[self view] addSubview:_secondVC.view];
-        NSLog(@"%f",_secondVC.view.frame.size.height);
         
     } else if (sender.selectedSegmentIndex == 2) {
         
-        NSLog(@"******3");
         [[self view] addSubview:_thirdVC.view];
-        NSLog(@"%f",_thirdVC.view.frame.size.height);
         
     }
     

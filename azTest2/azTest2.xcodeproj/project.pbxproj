@@ -699,7 +699,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
-				GCC_PREFIX_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
+				GCC_PREFIX_HEADER = /Users/aliez/Desktop/aLIEz/githubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
 				INFOPLIST_FILE = azTest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -716,7 +716,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
-				GCC_PREFIX_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
+				GCC_PREFIX_HEADER = /Users/aliez/Desktop/aLIEz/githubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
 				INFOPLIST_FILE = azTest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
