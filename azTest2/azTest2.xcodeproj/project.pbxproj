@@ -23,6 +23,10 @@
 		3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D2C1FBD8092002C8222 /* HomeViewController.m */; };
 		3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D301FBD8AE8002C8222 /* PersonalViewController.m */; };
 		3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7921FC400A00063BE23 /* ChattingViewController.m */; };
+		3D58E7971FC553700063BE23 /* CakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7961FC553700063BE23 /* CakeViewController.m */; };
+		3D58E79D1FC553C20063BE23 /* BreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E79C1FC553C20063BE23 /* BreadViewController.m */; };
+		3D58E7A01FC553DF0063BE23 /* ChinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E79F1FC553DF0063BE23 /* ChinaViewController.m */; };
+		3D58E7A41FC579760063BE23 /* CakeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7A31FC579760063BE23 /* CakeDetailViewController.m */; };
 		99EAB2715D1FFBB56665601B /* libPods-azTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E783932331A91583E0522BD /* libPods-azTest2.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +88,14 @@
 		3D476D301FBD8AE8002C8222 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
 		3D58E7911FC400A00063BE23 /* ChattingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChattingViewController.h; sourceTree = "<group>"; };
 		3D58E7921FC400A00063BE23 /* ChattingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattingViewController.m; sourceTree = "<group>"; };
+		3D58E7951FC553700063BE23 /* CakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CakeViewController.h; sourceTree = "<group>"; };
+		3D58E7961FC553700063BE23 /* CakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CakeViewController.m; sourceTree = "<group>"; };
+		3D58E79B1FC553C20063BE23 /* BreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadViewController.h; sourceTree = "<group>"; };
+		3D58E79C1FC553C20063BE23 /* BreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadViewController.m; sourceTree = "<group>"; };
+		3D58E79E1FC553DF0063BE23 /* ChinaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinaViewController.h; sourceTree = "<group>"; };
+		3D58E79F1FC553DF0063BE23 /* ChinaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaViewController.m; sourceTree = "<group>"; };
+		3D58E7A21FC579760063BE23 /* CakeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CakeDetailViewController.h; sourceTree = "<group>"; };
+		3D58E7A31FC579760063BE23 /* CakeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CakeDetailViewController.m; sourceTree = "<group>"; };
 		5E783932331A91583E0522BD /* libPods-azTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636A15CEE2794F26CE569D3B /* Pods-azTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1F346EC7698E911314327E /* Pods-azTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,8 +259,32 @@
 			children = (
 				3D58E7911FC400A00063BE23 /* ChattingViewController.h */,
 				3D58E7921FC400A00063BE23 /* ChattingViewController.m */,
+				3D58E7941FC553340063BE23 /* SegmentViewControllers */,
+				3D58E7A11FC5794F0063BE23 /* SegmentDetail */,
 			);
 			path = Chatting;
+			sourceTree = "<group>";
+		};
+		3D58E7941FC553340063BE23 /* SegmentViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D58E7951FC553700063BE23 /* CakeViewController.h */,
+				3D58E7961FC553700063BE23 /* CakeViewController.m */,
+				3D58E79B1FC553C20063BE23 /* BreadViewController.h */,
+				3D58E79C1FC553C20063BE23 /* BreadViewController.m */,
+				3D58E79E1FC553DF0063BE23 /* ChinaViewController.h */,
+				3D58E79F1FC553DF0063BE23 /* ChinaViewController.m */,
+			);
+			path = SegmentViewControllers;
+			sourceTree = "<group>";
+		};
+		3D58E7A11FC5794F0063BE23 /* SegmentDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3D58E7A21FC579760063BE23 /* CakeDetailViewController.h */,
+				3D58E7A31FC579760063BE23 /* CakeDetailViewController.m */,
+			);
+			path = SegmentDetail;
 			sourceTree = "<group>";
 		};
 		3D81725EC9AD68FA1A47A775 /* Frameworks */ = {
@@ -461,12 +497,16 @@
 			files = (
 				3D476CCB1FBD3682002C8222 /* main.m in Sources */,
 				3D476CF01FBD39BF002C8222 /* BaseViewController.m in Sources */,
+				3D58E7A01FC553DF0063BE23 /* ChinaViewController.m in Sources */,
 				3D476D1B1FBD7655002C8222 /* UIImage+Extend.m in Sources */,
 				3D476CBD1FBD3682002C8222 /* AppDelegate.m in Sources */,
 				3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */,
+				3D58E79D1FC553C20063BE23 /* BreadViewController.m in Sources */,
 				3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */,
 				3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */,
 				3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */,
+				3D58E7A41FC579760063BE23 /* CakeDetailViewController.m in Sources */,
+				3D58E7971FC553700063BE23 /* CakeViewController.m in Sources */,
 				3D476CFB1FBD6847002C8222 /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,6 +699,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
+				GCC_PREFIX_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
 				INFOPLIST_FILE = azTest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -675,6 +716,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
+				GCC_PREFIX_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test02/azTest2/azTest2/AppTools/azheader.pch;
 				INFOPLIST_FILE = azTest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

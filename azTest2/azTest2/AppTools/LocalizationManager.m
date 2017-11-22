@@ -102,7 +102,7 @@ static NSString *UserLanguage = @"UserLanguage";
 //重新设置
 + (void)resetRootViewController
 {
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     
 //    BaseViewController *tabVC = [[BaseViewController alloc] init];
 //    delegate.window.rootViewController = tabVC;

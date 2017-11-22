@@ -28,10 +28,12 @@
     
     //定义标题字体
     [[[self navigationController] navigationBar] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20.f]}];
-    
+    [[[self navigationController] navigationBar] setTitleTextAttributes:@{NSForegroundColorAttributeName:titleColor}];
+  
     //定义左侧按钮
     UIButton * leftBtn = [[UIButton alloc] initWithFrame:CGRectMake(10, 17, 30, 30)];
     [leftBtn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+    [leftBtn addTarget:self action:@selector(backForPop) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem * barBtnLeft = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
     [[self navigationItem] setLeftBarButtonItem:barBtnLeft];
     
@@ -71,6 +73,13 @@
     [[self view] addSubview:changeLanguageChT];
     
     */
+}
+
+//返回按钮PoP事件
+- (void) backForPop {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
