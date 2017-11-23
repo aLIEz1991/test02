@@ -18,7 +18,30 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [[self navigationItem] setTitle:@"Creat Note"];
+    
     [[[[self navigationItem] leftBarButtonItem] customView] setHidden:NO];
+    
+    //定义右侧按钮
+    UIButton * rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(SCREEN_WIDTH - 40, 17, 30, 30)];
+    [rightBtn setImage:[UIImage imageNamed:@"manager"] forState:UIControlStateNormal];
+    [rightBtn addTarget:self action:@selector(save:) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem * barBtnRight = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
+    [[self navigationItem] setRightBarButtonItem:barBtnRight];
+    
+}
+
+#pragma mark -- 初始化页面
+- (void) initFirstView {
+    
+    
+    
+}
+
+#pragma mark -- 保存
+- (void) save:(UIButton *)sender {
+    
+    
     
 }
 
