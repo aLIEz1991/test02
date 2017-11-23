@@ -13,7 +13,6 @@
 		3D476CC81FBD3682002C8222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D476CC61FBD3682002C8222 /* LaunchScreen.storyboard */; };
 		3D476CCB1FBD3682002C8222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476CCA1FBD3682002C8222 /* main.m */; };
 		3D476CD51FBD3682002C8222 /* azTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476CD41FBD3682002C8222 /* azTest2Tests.m */; };
-		3D476CE01FBD3682002C8222 /* azTest2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476CDF1FBD3682002C8222 /* azTest2UITests.m */; };
 		3D476CF01FBD39BF002C8222 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476CEF1FBD39BF002C8222 /* BaseViewController.m */; };
 		3D476CFB1FBD6847002C8222 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476CFA1FBD6847002C8222 /* UIColor+Extend.m */; };
 		3D476D131FBD74F5002C8222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D476D151FBD74F5002C8222 /* InfoPlist.strings */; };
@@ -22,11 +21,16 @@
 		3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D271FBD7FAC002C8222 /* LocalizationManager.m */; };
 		3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D2C1FBD8092002C8222 /* HomeViewController.m */; };
 		3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D476D301FBD8AE8002C8222 /* PersonalViewController.m */; };
-		3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7921FC400A00063BE23 /* ChattingViewController.m */; };
 		3D58E7971FC553700063BE23 /* CakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7961FC553700063BE23 /* CakeViewController.m */; };
 		3D58E79D1FC553C20063BE23 /* BreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E79C1FC553C20063BE23 /* BreadViewController.m */; };
 		3D58E7A01FC553DF0063BE23 /* ChinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E79F1FC553DF0063BE23 /* ChinaViewController.m */; };
 		3D58E7A41FC579760063BE23 /* CakeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7A31FC579760063BE23 /* CakeDetailViewController.m */; };
+		3D58E7A81FC68DD20063BE23 /* IMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7A71FC68DD20063BE23 /* IMSViewController.m */; };
+		3D58E7AB1FC68F330063BE23 /* FirstMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7AA1FC68F330063BE23 /* FirstMenuViewController.m */; };
+		3D58E7AE1FC68F550063BE23 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7AD1FC68F550063BE23 /* SecondViewController.m */; };
+		3D58E7B11FC68F610063BE23 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B01FC68F610063BE23 /* ThirdViewController.m */; };
+		3D58E7B41FC68F790063BE23 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B31FC68F790063BE23 /* FourthViewController.m */; };
+		3D58E7BA1FC692F20063BE23 /* azIMSData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B81FC692F20063BE23 /* azIMSData.xcdatamodeld */; };
 		99EAB2715D1FFBB56665601B /* libPods-azTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E783932331A91583E0522BD /* libPods-azTest2.a */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +64,6 @@
 		3D476CD41FBD3682002C8222 /* azTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = azTest2Tests.m; sourceTree = "<group>"; };
 		3D476CD61FBD3682002C8222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D476CDB1FBD3682002C8222 /* azTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D476CDF1FBD3682002C8222 /* azTest2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = azTest2UITests.m; sourceTree = "<group>"; };
-		3D476CE11FBD3682002C8222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D476CEE1FBD39BF002C8222 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		3D476CEF1FBD39BF002C8222 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		3D476CF91FBD6847002C8222 /* UIColor+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
@@ -86,8 +88,6 @@
 		3D476D2C1FBD8092002C8222 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3D476D2F1FBD8AE8002C8222 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		3D476D301FBD8AE8002C8222 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
-		3D58E7911FC400A00063BE23 /* ChattingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChattingViewController.h; sourceTree = "<group>"; };
-		3D58E7921FC400A00063BE23 /* ChattingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattingViewController.m; sourceTree = "<group>"; };
 		3D58E7951FC553700063BE23 /* CakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CakeViewController.h; sourceTree = "<group>"; };
 		3D58E7961FC553700063BE23 /* CakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CakeViewController.m; sourceTree = "<group>"; };
 		3D58E79B1FC553C20063BE23 /* BreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadViewController.h; sourceTree = "<group>"; };
@@ -96,6 +96,19 @@
 		3D58E79F1FC553DF0063BE23 /* ChinaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaViewController.m; sourceTree = "<group>"; };
 		3D58E7A21FC579760063BE23 /* CakeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CakeDetailViewController.h; sourceTree = "<group>"; };
 		3D58E7A31FC579760063BE23 /* CakeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CakeDetailViewController.m; sourceTree = "<group>"; };
+		3D58E7A61FC68DD20063BE23 /* IMSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSViewController.h; sourceTree = "<group>"; };
+		3D58E7A71FC68DD20063BE23 /* IMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSViewController.m; sourceTree = "<group>"; };
+		3D58E7A91FC68F330063BE23 /* FirstMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstMenuViewController.h; sourceTree = "<group>"; };
+		3D58E7AA1FC68F330063BE23 /* FirstMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstMenuViewController.m; sourceTree = "<group>"; };
+		3D58E7AC1FC68F550063BE23 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3D58E7AD1FC68F550063BE23 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3D58E7AF1FC68F610063BE23 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3D58E7B01FC68F610063BE23 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3D58E7B21FC68F790063BE23 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3D58E7B31FC68F790063BE23 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		3D58E7B91FC692F20063BE23 /* azIMSData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = azIMSData.xcdatamodel; sourceTree = "<group>"; };
+		3D58E7BB1FC694CF0063BE23 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D58E7BC1FC694CF0063BE23 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		5E783932331A91583E0522BD /* libPods-azTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636A15CEE2794F26CE569D3B /* Pods-azTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1F346EC7698E911314327E /* Pods-azTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +145,6 @@
 			children = (
 				3D476CBA1FBD3682002C8222 /* azTest2 */,
 				3D476CD31FBD3682002C8222 /* azTest2Tests */,
-				3D476CDE1FBD3682002C8222 /* azTest2UITests */,
 				3D476CB91FBD3682002C8222 /* Products */,
 				42A15B96C9AA3F9F49824393 /* Pods */,
 				3D81725EC9AD68FA1A47A775 /* Frameworks */,
@@ -180,15 +192,6 @@
 			path = azTest2Tests;
 			sourceTree = "<group>";
 		};
-		3D476CDE1FBD3682002C8222 /* azTest2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				3D476CDF1FBD3682002C8222 /* azTest2UITests.m */,
-				3D476CE11FBD3682002C8222 /* Info.plist */,
-			);
-			path = azTest2UITests;
-			sourceTree = "<group>";
-		};
 		3D476CED1FBD3969002C8222 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +235,7 @@
 				3D476D251FBD7B84002C8222 /* azheader.pch */,
 				3D476D261FBD7FAC002C8222 /* LocalizationManager.h */,
 				3D476D271FBD7FAC002C8222 /* LocalizationManager.m */,
+				3D58E7B81FC692F20063BE23 /* azIMSData.xcdatamodeld */,
 			);
 			path = AppTools;
 			sourceTree = "<group>";
@@ -258,8 +262,8 @@
 		3D476D3C1FBE6EF6002C8222 /* IMS */ = {
 			isa = PBXGroup;
 			children = (
-				3D58E7911FC400A00063BE23 /* ChattingViewController.h */,
-				3D58E7921FC400A00063BE23 /* ChattingViewController.m */,
+				3D58E7A61FC68DD20063BE23 /* IMSViewController.h */,
+				3D58E7A71FC68DD20063BE23 /* IMSViewController.m */,
 				3D58E7941FC553340063BE23 /* SegmentViewControllers */,
 				3D58E7A11FC5794F0063BE23 /* SegmentDetail */,
 			);
@@ -291,6 +295,14 @@
 		3D58E7A51FC677350063BE23 /* Menus */ = {
 			isa = PBXGroup;
 			children = (
+				3D58E7A91FC68F330063BE23 /* FirstMenuViewController.h */,
+				3D58E7AA1FC68F330063BE23 /* FirstMenuViewController.m */,
+				3D58E7AC1FC68F550063BE23 /* SecondViewController.h */,
+				3D58E7AD1FC68F550063BE23 /* SecondViewController.m */,
+				3D58E7AF1FC68F610063BE23 /* ThirdViewController.h */,
+				3D58E7B01FC68F610063BE23 /* ThirdViewController.m */,
+				3D58E7B21FC68F790063BE23 /* FourthViewController.h */,
+				3D58E7B31FC68F790063BE23 /* FourthViewController.m */,
 			);
 			path = Menus;
 			sourceTree = "<group>";
@@ -298,6 +310,8 @@
 		3D81725EC9AD68FA1A47A775 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D58E7BB1FC694CF0063BE23 /* CoreData.framework */,
+				3D58E7BC1FC694CF0063BE23 /* CoreFoundation.framework */,
 				5E783932331A91583E0522BD /* libPods-azTest2.a */,
 			);
 			name = Frameworks;
@@ -503,18 +517,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D58E7AE1FC68F550063BE23 /* SecondViewController.m in Sources */,
 				3D476CCB1FBD3682002C8222 /* main.m in Sources */,
 				3D476CF01FBD39BF002C8222 /* BaseViewController.m in Sources */,
 				3D58E7A01FC553DF0063BE23 /* ChinaViewController.m in Sources */,
+				3D58E7B41FC68F790063BE23 /* FourthViewController.m in Sources */,
 				3D476D1B1FBD7655002C8222 /* UIImage+Extend.m in Sources */,
 				3D476CBD1FBD3682002C8222 /* AppDelegate.m in Sources */,
-				3D58E7931FC400A00063BE23 /* ChattingViewController.m in Sources */,
+				3D58E7A81FC68DD20063BE23 /* IMSViewController.m in Sources */,
 				3D58E79D1FC553C20063BE23 /* BreadViewController.m in Sources */,
 				3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */,
 				3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */,
+				3D58E7B11FC68F610063BE23 /* ThirdViewController.m in Sources */,
 				3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */,
 				3D58E7A41FC579760063BE23 /* CakeDetailViewController.m in Sources */,
 				3D58E7971FC553700063BE23 /* CakeViewController.m in Sources */,
+				3D58E7AB1FC68F330063BE23 /* FirstMenuViewController.m in Sources */,
+				3D58E7BA1FC692F20063BE23 /* azIMSData.xcdatamodeld in Sources */,
 				3D476CFB1FBD6847002C8222 /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +550,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D476CE01FBD3682002C8222 /* azTest2UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +850,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D58E7B81FC692F20063BE23 /* azIMSData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D58E7B91FC692F20063BE23 /* azIMSData.xcdatamodel */,
+			);
+			currentVersion = 3D58E7B91FC692F20063BE23 /* azIMSData.xcdatamodel */;
+			path = azIMSData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3D476CB01FBD3682002C8222 /* Project object */;
 }

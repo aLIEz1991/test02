@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "BaseViewController.h"
 #import "HomeViewController.h"
-#import "ChattingViewController.h"
+#import "IMSViewController.h"
 #import "PersonalViewController.h"
 
 
@@ -30,9 +30,9 @@
     UINavigationController * homenav = [[UINavigationController alloc] initWithRootViewController:homevc];
     [[homenav tabBarItem] setTitle:@"Home"];
     
-    ChattingViewController * chatvc = [[ChattingViewController alloc] init];;
-    UINavigationController * chatnav = [[UINavigationController alloc] initWithRootViewController:chatvc];
-    [[chatnav tabBarItem] setTitle:@"Chatting"];
+    IMSViewController * imsvc = [[IMSViewController alloc] init];;
+    UINavigationController * imsnav = [[UINavigationController alloc] initWithRootViewController:imsvc];
+    [[imsnav tabBarItem] setTitle:@"IMS"];
     
     PersonalViewController * personalvc = [[PersonalViewController alloc] init];
     UINavigationController * personalnav = [[UINavigationController alloc] initWithRootViewController:personalvc];
@@ -40,7 +40,7 @@
     
     
     UITabBarController * tabVC = [[UITabBarController alloc] init];
-    [tabVC setViewControllers:@[homenav, chatnav, personalnav] animated:YES];
+    [tabVC setViewControllers:@[homenav, imsnav, personalnav] animated:YES];
     
     [[self window] setRootViewController:tabVC];
     

@@ -1,27 +1,24 @@
 //
-//  ChinaViewController.m
+//  FirstMenuViewController.m
 //  azTest2
 //
-//  Created by DYG_Az on 2017/11/22.
+//  Created by DYG_Az on 2017/11/23.
 //  Copyright © 2017年 DYG_Az. All rights reserved.
 //
 
-#import "ChinaViewController.h"
+#import "FirstMenuViewController.h"
 
-@interface ChinaViewController ()<UITableViewDelegate, UITableViewDataSource>
-
-@property (strong, nonatomic) UITableView * cTabel;
+@interface FirstMenuViewController ()
 
 @end
 
-@implementation ChinaViewController
+@implementation FirstMenuViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[self view] setBackgroundColor:[UIColor yellowColor]];
     
-    _cTabel.delegate = self;
+    [[[[self navigationItem] leftBarButtonItem] customView] setHidden:NO];
     
 }
 

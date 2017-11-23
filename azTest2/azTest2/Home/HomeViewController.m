@@ -7,6 +7,10 @@
 //
 
 #import "HomeViewController.h"
+#import "FirstMenuViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
 
 @interface HomeViewController ()<UIScrollViewDelegate>
 
@@ -128,18 +132,30 @@
     
     if (sender == _firstBtn) {
         
+        FirstMenuViewController * firstvc = [[FirstMenuViewController alloc] init];
+        
+        [self.navigationController pushViewController:firstvc animated:YES];
         NSLog(@"Success:1");
         
     } else if (sender == _secondBtn) {
         
+        SecondViewController * secondvc = [[SecondViewController alloc] init];
+        
+        [self.navigationController pushViewController:secondvc animated:YES];
         NSLog(@"Success:2");
         
     } else if (sender == _thirdBtn) {
         
+        ThirdViewController * thirdvc = [[ThirdViewController alloc] init];
+        
+        [self.navigationController pushViewController:thirdvc animated:YES];
         NSLog(@"Success:3");
         
     } else if (sender == _fourthBtn) {
         
+        FourthViewController * fourth = [[FourthViewController alloc] init];
+        
+        [self.navigationController pushViewController:fourth animated:YES];
         NSLog(@"Success:4");
         
     } else {
