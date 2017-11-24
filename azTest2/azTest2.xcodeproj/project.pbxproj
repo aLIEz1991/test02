@@ -31,8 +31,9 @@
 		3D58E7B11FC68F610063BE23 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B01FC68F610063BE23 /* ThirdViewController.m */; };
 		3D58E7B41FC68F790063BE23 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B31FC68F790063BE23 /* FourthViewController.m */; };
 		3D58E7BA1FC692F20063BE23 /* azIMSData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7B81FC692F20063BE23 /* azIMSData.xcdatamodeld */; };
-		3D58E7C91FC6BD710063BE23 /* Formulation+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7C51FC6BD710063BE23 /* Formulation+CoreDataClass.m */; };
-		3D58E7CA1FC6BD710063BE23 /* Formulation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7C81FC6BD710063BE23 /* Formulation+CoreDataProperties.m */; };
+		3D58E7D01FC7A55D0063BE23 /* Formulation+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7CD1FC7A55D0063BE23 /* Formulation+CoreDataClass.m */; };
+		3D58E7D11FC7A55D0063BE23 /* Formulation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7CF1FC7A55D0063BE23 /* Formulation+CoreDataProperties.m */; };
+		3D58E7D41FC7CAC30063BE23 /* FormulationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7D31FC7CAC30063BE23 /* FormulationManager.m */; };
 		99EAB2715D1FFBB56665601B /* libPods-azTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E783932331A91583E0522BD /* libPods-azTest2.a */; };
 /* End PBXBuildFile section */
 
@@ -111,10 +112,12 @@
 		3D58E7B91FC692F20063BE23 /* azIMSData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = azIMSData.xcdatamodel; sourceTree = "<group>"; };
 		3D58E7BB1FC694CF0063BE23 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3D58E7BC1FC694CF0063BE23 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		3D58E7C51FC6BD710063BE23 /* Formulation+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Formulation+CoreDataClass.m"; path = "azTest2/AppTools/CoreData/Formulation+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
-		3D58E7C61FC6BD710063BE23 /* Formulation+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Formulation+CoreDataClass.h"; path = "azTest2/AppTools/CoreData/Formulation+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
-		3D58E7C71FC6BD710063BE23 /* Formulation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Formulation+CoreDataProperties.h"; path = "azTest2/AppTools/CoreData/Formulation+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
-		3D58E7C81FC6BD710063BE23 /* Formulation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Formulation+CoreDataProperties.m"; path = "azTest2/AppTools/CoreData/Formulation+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+		3D58E7CC1FC7A55D0063BE23 /* Formulation+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Formulation+CoreDataClass.h"; sourceTree = "<group>"; };
+		3D58E7CD1FC7A55D0063BE23 /* Formulation+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Formulation+CoreDataClass.m"; sourceTree = "<group>"; };
+		3D58E7CE1FC7A55D0063BE23 /* Formulation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Formulation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D58E7CF1FC7A55D0063BE23 /* Formulation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Formulation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D58E7D21FC7CAC30063BE23 /* FormulationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormulationManager.h; sourceTree = "<group>"; };
+		3D58E7D31FC7CAC30063BE23 /* FormulationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormulationManager.m; sourceTree = "<group>"; };
 		5E783932331A91583E0522BD /* libPods-azTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636A15CEE2794F26CE569D3B /* Pods-azTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1F346EC7698E911314327E /* Pods-azTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest2/Pods-azTest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -237,7 +240,7 @@
 		3D476D231FBD7AB2002C8222 /* AppTools */ = {
 			isa = PBXGroup;
 			children = (
-				3D58E7C41FC6BCFD0063BE23 /* CoreData */,
+				3D58E7CB1FC7A55D0063BE23 /* CoreData */,
 				3D476D241FBD7AC7002C8222 /* Const.h */,
 				3D476D251FBD7B84002C8222 /* azheader.pch */,
 				3D476D261FBD7FAC002C8222 /* LocalizationManager.h */,
@@ -314,16 +317,17 @@
 			path = Menus;
 			sourceTree = "<group>";
 		};
-		3D58E7C41FC6BCFD0063BE23 /* CoreData */ = {
+		3D58E7CB1FC7A55D0063BE23 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3D58E7C61FC6BD710063BE23 /* Formulation+CoreDataClass.h */,
-				3D58E7C51FC6BD710063BE23 /* Formulation+CoreDataClass.m */,
-				3D58E7C71FC6BD710063BE23 /* Formulation+CoreDataProperties.h */,
-				3D58E7C81FC6BD710063BE23 /* Formulation+CoreDataProperties.m */,
+				3D58E7CC1FC7A55D0063BE23 /* Formulation+CoreDataClass.h */,
+				3D58E7CD1FC7A55D0063BE23 /* Formulation+CoreDataClass.m */,
+				3D58E7CE1FC7A55D0063BE23 /* Formulation+CoreDataProperties.h */,
+				3D58E7CF1FC7A55D0063BE23 /* Formulation+CoreDataProperties.m */,
+				3D58E7D21FC7CAC30063BE23 /* FormulationManager.h */,
+				3D58E7D31FC7CAC30063BE23 /* FormulationManager.m */,
 			);
-			name = CoreData;
-			path = "New Group";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		3D81725EC9AD68FA1A47A775 /* Frameworks */ = {
@@ -537,7 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D58E7AE1FC68F550063BE23 /* SecondViewController.m in Sources */,
-				3D58E7C91FC6BD710063BE23 /* Formulation+CoreDataClass.m in Sources */,
+				3D58E7D01FC7A55D0063BE23 /* Formulation+CoreDataClass.m in Sources */,
 				3D476CCB1FBD3682002C8222 /* main.m in Sources */,
 				3D476CF01FBD39BF002C8222 /* BaseViewController.m in Sources */,
 				3D58E7A01FC553DF0063BE23 /* ChinaViewController.m in Sources */,
@@ -548,11 +552,12 @@
 				3D58E79D1FC553C20063BE23 /* BreadViewController.m in Sources */,
 				3D476D281FBD7FAC002C8222 /* LocalizationManager.m in Sources */,
 				3D476D2D1FBD8092002C8222 /* HomeViewController.m in Sources */,
-				3D58E7CA1FC6BD710063BE23 /* Formulation+CoreDataProperties.m in Sources */,
+				3D58E7D11FC7A55D0063BE23 /* Formulation+CoreDataProperties.m in Sources */,
 				3D58E7B11FC68F610063BE23 /* ThirdViewController.m in Sources */,
 				3D476D311FBD8AE8002C8222 /* PersonalViewController.m in Sources */,
 				3D58E7A41FC579760063BE23 /* CakeDetailViewController.m in Sources */,
 				3D58E7971FC553700063BE23 /* CakeViewController.m in Sources */,
+				3D58E7D41FC7CAC30063BE23 /* FormulationManager.m in Sources */,
 				3D58E7AB1FC68F330063BE23 /* FirstMenuViewController.m in Sources */,
 				3D58E7BA1FC692F20063BE23 /* azIMSData.xcdatamodeld in Sources */,
 				3D476CFB1FBD6847002C8222 /* UIColor+Extend.m in Sources */,
