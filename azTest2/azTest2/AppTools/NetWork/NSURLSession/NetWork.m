@@ -69,11 +69,25 @@
         
         //请求处理
         NSURL *nsurl = [NSURL URLWithString:url];
-        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:nsurl];
+        NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:nsurl];
         [request setHTTPBody:[NSJSONSerialization dataWithJSONObject:parameters options:NSJSONWritingPrettyPrinted error:nil]];
         
         NSURLSession * session = [NSURLSession sharedSession];
-        
+        NSURLSessionDataTask * dataTask = [session dataTaskWithURL:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+            
+            if (error) {
+                
+                failureBlock(error);
+                
+            } else {
+                
+                NSDictionary * dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                successBlock(dictionary);
+            }
+            
+            
+        }];
+        [dataTask resume];
         
     } else {
         
