@@ -68,26 +68,6 @@
     if ([NetWork isExistenceNetwork]) {
         
         //请求处理
-        NSURL *nsurl = [NSURL URLWithString:url];
-        NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:nsurl];
-        [request setHTTPBody:[NSJSONSerialization dataWithJSONObject:parameters options:NSJSONWritingPrettyPrinted error:nil]];
-        
-        NSURLSession * session = [NSURLSession sharedSession];
-        NSURLSessionDataTask * dataTask = [session dataTaskWithURL:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-            
-            if (error) {
-                
-                failureBlock(error);
-                
-            } else {
-                
-                NSDictionary * dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-                successBlock(dictionary);
-            }
-            
-            
-        }];
-        [dataTask resume];
         
     } else {
         
@@ -102,18 +82,39 @@
                parameters:(id)parameters
                   success:(SuccessBlock)successBlock
                    failed:(FailureBlock)failureBlock {
-    
+
     //网络判断
     if ([NetWork isExistenceNetwork]) {
         
         //请求处理
+        NSURL *nsurl = [NSURL URLWithString:url];
+        NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:nsurl];
+        [request setHTTPBody:[NSJSONSerialization dataWithJSONObject:parameters options:NSJSONWritingPrettyPrinted error:nil]];
+        [request setHTTPMethod:@"POST"];
+        
+        NSURLSession * session = [NSURLSession sharedSession];
+        NSURLSessionDataTask * dataTask = [session dataTaskWithURL:request completionHandler:^(NSData * data, NSURLResponse * response, NSError * error) {
+            
+            if (error) {
+                
+                //处理异常，考虑Http请求
+                failureBlock(error);
+                
+            } else {
+                
+                //转成字典类型
+                NSDictionary * dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                successBlock(dictionary);
+            }
+            
+        }];
+        [dataTask resume];
         
     } else {
         
         //网络异常
         
     }
-    
     
 }
 
